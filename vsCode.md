@@ -2,10 +2,9 @@
 Download the latest version on the [official website](https://code.visualstudio.com/download). Unzip the downloaded file and move the Visual Studio Code.app to Application folder.
 
 ## My Preferences Settings
+
+### Editor Configs
 ```json
-//
-// Editor
-//
 "editor.rulers": [80,100,120],
 // The number of spaces a tab is equal to. This setting is overridden
 // based on the file contents when `editor.detectIndentation` is true.
@@ -21,9 +20,10 @@ Download the latest version on the [official website](https://code.visualstudio.
 "workbench.colorCustomizations": {
     "editorRuler.foreground": "#ff7ca8"
 },
-//
-// Terminal
-//
+```
+
+### Terminal Configs
+```json
 "terminal.external.osxExec": "iTerm.app",
 "terminal.integrated.defaultProfile.osx": "zsh",
 "terminal.explorerKind": "external",
