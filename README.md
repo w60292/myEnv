@@ -8,4 +8,5 @@ macOS Monterey Version 12.6
 - [Homebrew](./homebrew.md)
 - [iTerm2](./iTerm2.md)
 - [VS Code](./vsCode.md)
+- [Node Version Manager](./nvm.md)
 - [Docker](./docker.md)

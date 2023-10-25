@@ -1,9 +1,11 @@
 # Visual Studio Code
+
 Download the latest version on the [official website](https://code.visualstudio.com/download). Unzip the downloaded file and move the Visual Studio Code.app to Application folder.
 
 ## My Preferences Settings
 
 ### Editor Configs
+
 ```json
 "editor.rulers": [80,100,120],
 // The number of spaces a tab is equal to. This setting is overridden
@@ -22,7 +24,26 @@ Download the latest version on the [official website](https://code.visualstudio.
 },
 ```
 
+### Prettier Configs
+
+```json
+"[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[handlebars]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.formatOnSave": true,
+```
+
 ### Terminal Configs
+
 ```json
 "terminal.external.osxExec": "iTerm.app",
 "terminal.integrated.defaultProfile.osx": "zsh",
